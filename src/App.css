@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+}
+
+.header .menu {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.header .link {
+  border: 1px solid #333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.list_day {
+  display: flex;
+  width:70%;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+.list_day li {
+  width:33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.list_day a {
+  display: block;
+  padding: 20px 0;
+  font-weight: bold;
+  color: #131313;
+  text-align: center; 
+  border-radius: 10px;
+  border:1px solid #131313;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table td {
+  width: 25%;
+  height: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  border: 0 none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: tomato;
+}
+
+.input_area {
+  margin-bottom: 10px;
+}
+
+.input_area label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input_area input {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.input_area select {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+}
